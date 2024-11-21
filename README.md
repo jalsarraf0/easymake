@@ -1,7 +1,7 @@
 # Install Development Tools Script
 
 ## Overview
-This Bash script, `install_dev_tools.sh`, is designed to simplify the setup process for essential development tools on various Linux distributions. It supports multiple distros by providing an interactive CLI menu for users to select their operating system, ensuring compatibility across Ubuntu/Debian, Fedora, CentOS, openSUSE, and Arch Linux.
+This Bash script, `easymake.sh`, is designed to simplify the setup process for essential development tools on various Linux distributions. It supports multiple distros by providing an interactive CLI menu for users to select their operating system, ensuring compatibility across Ubuntu/Debian, Fedora, CentOS, openSUSE, and Arch Linux.
 
 The script installs a variety of tools and libraries required for compiling and building software from source.
 
