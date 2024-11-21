@@ -47,4 +47,4 @@ The script installs a variety of tools and libraries required for compiling and 
 - Ensure you have `sudo` privileges on your system.
 - Make the script executable:
   ```bash
-  chmod +x install_dev_tools.sh
+  chmod +x easymake.sh
