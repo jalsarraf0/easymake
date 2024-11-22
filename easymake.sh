@@ -1,5 +1,48 @@
 #!/bin/bash
 
+# Function to display help (man page)
+display_help() {
+    echo "NAME
+       easymake.sh - Automates installation of development tools for various Linux distributions
+
+SYNOPSIS
+       ./easymake.sh [OPTIONS]
+
+DESCRIPTION
+       A script to simplify the process of installing essential development tools and libraries required for building
+       software on various Linux distributions. It automatically detects the distribution and applies appropriate commands.
+
+OPTIONS
+       -h, --help
+              Display this help message and exit.
+
+USAGE
+       Run the script without options, and follow the interactive menu to select your Linux distribution.
+
+EXAMPLES
+       1. Display help:
+           ./easymake.sh -h
+
+       2. Run the script to install tools interactively:
+           ./easymake.sh
+
+AUTHOR
+       Written by [Your Name]. Contributions and feedback are welcome.
+
+LICENSE
+       Distributed under the MIT License. For details, see LICENSE.
+
+REPORTING BUGS
+       Report issues at https://github.com/your-repo/issues
+"
+}
+
+# Parse arguments for -h or --help
+if [[ $1 == "-h" || $1 == "--help" ]]; then
+    display_help
+    exit 0
+fi
+
 # CLI menu for selecting the Linux distribution
 echo "Select your Linux distribution:"
 echo "1) Ubuntu/Debian"
