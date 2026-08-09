@@ -14,7 +14,7 @@ permissions:
 
 jobs:
   regression-and-security:
-    runs-on: [self-hosted, shell-slim]
+    runs-on: [self-hosted, dominus]
     timeout-minutes: 30
     steps:
       - name: Checkout
